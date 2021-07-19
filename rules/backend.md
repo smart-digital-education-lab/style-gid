@@ -62,4 +62,3 @@ $myBestClassEver = new MyBestClassEver();
 - type - поле типа/вида/разновидности, без булевых определений (например, multi_change/single_change/text), значения - числовые константы в моделях.
 - file - это файл
 - link - это ссылка
-- справочные значения - объекты, содержащие id и value
