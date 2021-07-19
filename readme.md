@@ -8,7 +8,3 @@
   - [Запросы API](rules/api/request.md)
   - [Ответы API](rules/api/response.md)
 - [Оформление статей в вики](rules/wiki.md)
-  
-## Вики
-
-
