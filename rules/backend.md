@@ -52,7 +52,7 @@ $myBestClassEver = new MyBestClassEver();
 
 ## 5. Поля
 Для снижения неопределенности требуется подобное называть подобным, при написании наименований полей соблюдать правила.
-- name - не должно существовать такого поля, могут существовать first_name, surname, middle_name, patronomic, short_name, full_name, username
+- name - не должно существовать такого поля, могут существовать first_name, surname, middle_name, patronomic, short_name, full_name, username, title
 - title - всегда полный заголовок. Краткий - short_title, если требуется.
 - text - всегда полный текст. Краткий - short_text, если требуется.
 - description - всегда полное описание. Краткое - short_description, если требуется.
