@@ -54,7 +54,6 @@ $myBestClassEver = new MyBestClassEver();
 Для снижения неопределенности требуется подобное называть подобным, при написании наименований полей соблюдать правила.
 - name - не должно существовать такого поля, могут существовать first_name, surname, middle_name, patronomic, short_name, full_name, username, title
 - title - всегда полный заголовок. Краткий - short_title, если требуется.
-- text - всегда полный текст. Краткий - short_text, если требуется.
 - description - всегда полное описание. Краткое - short_description, если требуется.
 - created_at и updated_at - обязательны для сущностей
 - если вводятся "поля-логи", нейминг - действие_at (created_at, activited_at) - когда сделал, действие_by (created_by, activited_by) - кто сделал.
