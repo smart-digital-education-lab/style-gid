@@ -18,29 +18,21 @@
 .eslintrc (в корне проекта)
 ```json
 {
+  "env": {
+    "node": true
+  },
   "parserOptions": {
     "parser": "babel-eslint"
   },
   "extends": [
-    "airbnb-base",
+    "@vue/airbnb",
     "plugin:vue/recommended"
   ],
   "rules": {
-    "linebreak-style": ["error", "unix"],
-    "quote-props": ["error", "consistent"],
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "func-names": ["error", "never"],
-    "radix": ["error", "as-needed"],
-    "no-new": "off",
-    "max-len": [1, 130, 4],
     "no-param-reassign": "off",
-    "camelcase": "warn",
     "no-multi-spaces": "off",
-    "no-confusing-arrow": "off",
-    "key-spacing": "off",
     "vue/no-multi-spaces": "off",
     "vue/max-attributes-per-line": 3,
-    "vue/no-v-html": "off",
     "import/no-unresolved": {
       "node": {
         "paths": ["@"]
