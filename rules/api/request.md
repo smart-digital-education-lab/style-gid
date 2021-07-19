@@ -8,8 +8,8 @@
 - GET - list, read
 - POST - create
 - DELETE - delete
-- PUT - update
-- PATCH - не-CRUD методы
+- PUT - update (replacement)
+- PATCH - update (part), не-crud
 
 Наличие/отсутствие закрывающего слеша не имеет значения.
 \* Для списка и создания id не указывается.
